@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+.header {
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 75px;
+	/*background-color: #ffebeb;*/
+	text-align: center;
+}
+
+.light-blue {
+	color: #a8bfff;
+}
+
+.at-sign {
+	color: #d1cdcd;
+}
+
+.name {
+	font-size: 23px;
+	color: #a8bfff;
+	font-weight: 400;
+}
+
+.items {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	text-align: center;
+}
+
+.github {
+	padding: 10px;
+	margin-top: 30px;
+	color: #383737;
+}
+
+.linkedin {
+	padding: 10px;
+	margin-top: 30px;
+	color: #383737;
+}
+
+.teaching {
+	padding: 10px;
+	margin-top: 30px;
+	color: #383737;
+}
+
+.home-description {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 50px;
+	padding; 10px;
+}
+
+.sub-home-description {
+	color: #a8bfff;
+	font-size: 28px;
+	padding: 5px;
+	margin-top: 30px;
+}
+
+.hello-world {
+	font-size: 35px;
+	color: #383737;
+	padding: 5px;
+}
+
+.icon-container {
+	text-align: center;
+}
+
+
+.about-link {
+	font-size: 14px;
+	align-self: left;
+	margin-right: 150px;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	background: #a8bfff;
+	/* box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17); */
+	transition-duration: 0.4s;
+	font-weight: 600;
+}
+
+.projects-link {
+	font-size: 14px;
+	margin-left: 150px;
+	padding: 10px;
+	border-radius: 5px;
+	color:white;
+	background: #a8bfff;
+	/* box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17); */
+	transition-duration: 0.4s;
+	font-weight: 600;
+}
+
+.projects-link:hover {
+	/* box-shadow:inset 0 -0.2em 0 -0.1em rgba(0,0,0,0.17); */
+	/* padding-top: 4.5px; */
+}
+
+.about-link:hover {
+	/* box-shadow:inset 0 -0.2em 0 -0.1em rgba(0,0,0,0.17); */
+	/* padding-top: 4.5px; */
+}
+
+.img-container {
+	margin-left: 200px;
+	padding: 10px;
+	margin-top: 100px;
+	display: inline;
+}
+
+.about-description {
+	display: inline;
+	width: 300px;
+}
+
+.text {
+	display: inline;
+}
+
+.vertical-line {
+	display: inline-block;
+	border-left: 2px solid #ccc;
+	height: 400px;
+	margin-left: 10px;
+	margin-top: 100px;
+}
+
+.portrait {
+    position: relative;
+    width: 325px;
+    height: 325px;
+    overflow: hidden;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portrait img {
+    width: 100%;
+    opacity: 0.95;
+    transition-property: opacity, transform;
+    transition-duration: 1.5s, 1.5s;
+}
+
+.portrait img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.project-img {
+	width: 100%;
+	border-radius: 5%;
+	transition-duration: 0.8s;
+}
+
+.project-img:hover {
+	box-shadow: 6px 7px 20px 2px rgba(179,179,179,1);
+	transform: scale(1.02);
+
+}
+
+.img-overlay {
+	position: absolute;
+	top: 0;
+	width:100%;
+	height: 100%;
+	border-radius: 5%;
+	background-color: black;
+	opacity: 0;
+	transition-duration: 0.5s;
+}
+
+.img-overlay:hover {
+	opacity:0.8;
+}
+
+.about-photo {
+	width: 100%;
+}
+
+.about-description {
+	font-size: 17px;
+}
+
+.about-img-container {
+	border: 1px solid #d1cdcd;
+}
+
+.horizontal-line {
+	width: 75%;
+}
+
+.navbar-main {
+	/* border-bottom: 1px solid #d1cdcd; */
+}
+
+.main {
+	/* background-color: rgba(255, 255, 255, 0.9);
+	background-image: url("./imgs/mountain-bg.jpg");
+	background-size: cover; */
+}
+
+/* .background-pic {
+	background-image: url("./imgs/mountain-bg.jpg");
+	background-size: cover;
+} */

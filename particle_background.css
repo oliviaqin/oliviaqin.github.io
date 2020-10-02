@@ -1,0 +1,14 @@
+body {
+  --size: random(5) + 5 + px;
+}
+
+
+.particle {
+  position:absolute;
+  border-radius:50%;
+  animation: particle-animation 5s infinite;
+  /* transform: translate3d() */
+  /* height: 100px;
+  width: 100px; */
+  /* background: hsl(257, 70%, 50%); */
+}
