@@ -11,28 +11,27 @@
 	</head>
 	<body>
 			<div class="container main p-5">
-			<nav class="navbar navbar-expand-md navbar-light justify-content-right">
-				<a href="/" class="d-flex mr-auto"> shoot me an email: </a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-						<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse mr-auto justify-content-end" id="navbarNav">
-						<ul class="navbar-nav justify-content-end">
-							<li class="nav-item">
-									<a class="nav-link" href="index.html"> home </a>
-							</li>
-								<li class="nav-item">
-										<a class="nav-link" href="./projects.html"> projects </a>
-								</li>
-								<li class="nav-item">
-										<a class="nav-link" href="#"> life 🌱</a>
-								</li>
-								<li class="nav-item">
-										<a class="nav-link" href="{{ url('/register') }}"> teaching</a>
-								</li>
-						</ul>
-				</div>
-		</nav>
+			<nav class="navbar navbar-expand-md navbar-light justify-content-right navbar-main ">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+								<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse mr-auto justify-content-center" id="navbarNav">
+								<ul class="navbar-nav">
+									<li class="nav-item">
+											<a class="nav-link" href="./index.html"> home </a>
+									</li>
+										<li class="nav-item">
+												<a class="nav-link" href="./projects.html"> projects </a>
+										</li>
+										<li class="nav-item">
+												<a class="nav-link" href="./life.html"> life </a>
+										</li>
+										<li class="nav-item">
+												<a class="nav-link" href="{{ url('/register') }}"> teaching</a>
+										</li>
+								</ul>
+						</div>
+				</nav>
 		<div class="life-container mt-5">
 			<div class="row">
 				<div class="col-sm-5 p-2 about-img-container">

@@ -51,8 +51,7 @@
 	font-family: 'Open Sans', sans-serif;
 	font-size: 30px;
 	text-align: center;
-	margin-top: 50px;
-	padding; 10px;
+	padding: 20px;
 }
 
 .sub-home-description {
@@ -134,12 +133,11 @@
 
 .portrait {
     position: relative;
-    width: 325px;
-    height: 325px;
+    width: 350px;
+    height: 350px;
     overflow: hidden;
     border-radius: 50%;
     text-align: center;
-    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -199,8 +197,9 @@
 	width: 75%;
 }
 
-.navbar-main {
-	/* border-bottom: 1px solid #d1cdcd; */
+
+.top-align {
+	vertical-align:top;
 }
 
 .main {
