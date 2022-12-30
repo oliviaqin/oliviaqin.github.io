@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+  }
+  
+  .video-container video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%; 
+    min-height: 100%; 
+    
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+    
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 95%;
+    max-width: 45em;
+    margin: auto auto 1em;
+    box-sizing: border-box;
+    padding: 2em;
+    line-height: 1.5;
+    text-align: center;
+    font-family: "Chivo"; 
+}
+
+.fade-in {
+    animation: fadeIn 5s;
+}
+
+h1 {
+    color:#fff;
+    font-size: 28pt;
+    font-weight: normal;
+    margin: 0 0 10em;
+}
+
+p {
+    font-size: 11pt;
+    margin: 1em 0;
+}
+a {
+    color: #fff;
+}
+
+.linkedin-icon {
+    transition: 0.3s;
+}
+
+.linkedin-icon:hover {
+    opacity: .5;
+}
+
+.github-icon {
+    transition: 0.3s;
+}
+
+.github-icon:hover {
+    opacity: .5;
+}
+
+.corgi {
+    width: 10%;
+    height: 10%;
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+.white-font {
+    color:#fff;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  
